@@ -1,7 +1,6 @@
-# aurelia-mousetrap
+# aurelia-return-trigger
 
 This plugin simply allows you to add `return-trigger` to elements in Aurelia, so that they dispatch CustomEvents named 'return'.
-
 
 ## Using the plugin
 
