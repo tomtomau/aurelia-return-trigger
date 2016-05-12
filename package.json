@@ -1,20 +1,20 @@
 {
-  "name": "aurelia-return-trigger",
-  "version": "0.1.1",
-  "description": "An Aurelia plugin to simply trigger a \"return\" event on return keypress",
+  "name": "aurelia-escape-blur",
+  "version": "0.1.0",
+  "description": "An Aurelia plugin to simply blur on escape keypress",
   "keywords": [
     "aurelia"
   ],
   "homepage": "http://tomnewby.net",
   "bugs": {
-    "url": "https://github.com/tomtomau/aurelia-return-trigger/issues"
+    "url": "https://github.com/tomtomau/aurelia-escape-blur/issues"
   },
   "license": "CC0-1.0",
   "author": "Tom Newby <me@tomnewby.net> (http://tomnewby.net/)",
   "main": "dist/commonjs/index.js",
   "repository": {
     "type": "git",
-    "url": "http://github.com/tomtomau/aurelia-return-trigger"
+    "url": "http://github.com/tomtomau/aurelia-escape-blur"
   },
   "devDependencies": {
     "aurelia-tools": "^0.1.18",

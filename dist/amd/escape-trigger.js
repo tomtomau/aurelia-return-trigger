@@ -13,25 +13,23 @@ define(['exports'], function (exports) {
 
     var _class, _temp;
 
-    var ReturnTriggerCustomAttribute = exports.ReturnTriggerCustomAttribute = (_temp = _class = function () {
-        function ReturnTriggerCustomAttribute(element) {
-            _classCallCheck(this, ReturnTriggerCustomAttribute);
+    var EscapeBlurCustomAttribute = exports.EscapeBlurCustomAttribute = (_temp = _class = function () {
+        function EscapeBlurCustomAttribute(element) {
+            _classCallCheck(this, EscapeBlurCustomAttribute);
 
             this.element = element;
         }
 
-        ReturnTriggerCustomAttribute.prototype.attached = function attached() {
+        EscapeBlurCustomAttribute.prototype.attached = function attached() {
             var _this = this;
 
             this.element.addEventListener('keyup', function (e) {
-                if (e.which == 13) {
-                    var event = new CustomEvent('return', { bubbles: true });
-
-                    _this.element.dispatchEvent(event);
+                if (e.which == 27) {
+                    _this.element.blur();
                 }
             });
         };
 
-        return ReturnTriggerCustomAttribute;
+        return EscapeBlurCustomAttribute;
     }(), _class.inject = [Element], _temp);
 });

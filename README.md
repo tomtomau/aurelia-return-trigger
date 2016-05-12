@@ -1,23 +1,22 @@
-# aurelia-return-trigger
+# aurelia-escape-blur
 
-This plugin simply allows you to add `return-trigger` to elements in Aurelia, so that they dispatch CustomEvents named 'return'.
+This plugin simply allows you to add `escape-blur` to elements in Aurelia, so that they blur when the Escape keycode is sent.
 
 ## Using the plugin
 
 Install the plugin and configure the plugin in `main.js`
 
-`$ jspm install npm:aurelia-return-trigger`
+`$ jspm install npm:aurelia-escape-blur`
 
 ```
-.plugin('aurelia-return-trigger')
+.plugin('aurelia-escape-blur')
 ```
 
 Use it in your html:
 
 ```
-<input type="text" return-trigger return.delegate="triggerMeWhenReturn()" />
+<input type="text" escape-blur/>
 ```
-
 
 ## Building The Code
 

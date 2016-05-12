@@ -5,7 +5,7 @@ System.register([], function (_export, _context) {
     setters: [],
     execute: function () {
       function configure(config) {
-        config.globalResources('./return-delegate');
+        config.globalResources('./escape-trigger');
       }
 
       _export('configure', configure);
