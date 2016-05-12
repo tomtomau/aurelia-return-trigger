@@ -3,20 +3,18 @@
   "version": "0.0.1",
   "description": "An Aurelia plugin to simply bind a delegate",
   "keywords": [
-    "aurelia",
-    "plugin",
-    "skeleton"
+    "aurelia"
   ],
-  "homepage": "http://aurelia.io",
+  "homepage": "http://tomnewby.net",
   "bugs": {
-    "url": "https://github.com/aurelia/skeleton-plugin/issues"
+    "url": "https://github.com/tomtomau/aurelia-return-trigger/issues"
   },
   "license": "CC0-1.0",
-  "author": "Rob Eisenberg <rob@bluespire.com> (http://robeisenberg.com/)",
+  "author": "Tom Newby <me@tomnewby.net> (http://tomnewby.net/)",
   "main": "dist/commonjs/index.js",
   "repository": {
     "type": "git",
-    "url": "http://github.com/aurelia/skeleton-plugin"
+    "url": "http://github.com/tomtomau/aurelia-return-trigger"
   },
   "devDependencies": {
     "aurelia-tools": "^0.1.18",
