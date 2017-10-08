@@ -1,4 +1,4 @@
-define(['exports'], function (exports) {
+define(['exports', './return-trigger'], function (exports) {
   'use strict';
 
   Object.defineProperty(exports, "__esModule", {

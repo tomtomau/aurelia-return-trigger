@@ -1,14 +1,16 @@
 'use strict';
 
-System.register([], function (_export, _context) {
-  return {
-    setters: [],
-    execute: function () {
-      function configure(config) {
-        config.globalResources('./return-delegate');
-      }
+System.register(['./return-trigger'], function (_export, _context) {
+  "use strict";
 
-      _export('configure', configure);
-    }
+  function configure(config) {
+    config.globalResources('./return-delegate');
+  }
+
+  _export('configure', configure);
+
+  return {
+    setters: [function (_returnTrigger) {}],
+    execute: function () {}
   };
 });
