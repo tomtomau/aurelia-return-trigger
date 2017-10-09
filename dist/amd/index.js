@@ -6,6 +6,6 @@ define(['exports', './return-trigger'], function (exports) {
   });
   exports.configure = configure;
   function configure(config) {
-    config.globalResources('./return-delegate');
+    config.globalResources('./return-trigger');
   }
 });

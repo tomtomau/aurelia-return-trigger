@@ -4,7 +4,7 @@ System.register(['./return-trigger'], function (_export, _context) {
   "use strict";
 
   function configure(config) {
-    config.globalResources('./return-delegate');
+    config.globalResources('./return-trigger');
   }
 
   _export('configure', configure);

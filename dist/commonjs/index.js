@@ -8,5 +8,5 @@ exports.configure = configure;
 require('./return-trigger');
 
 function configure(config) {
-  config.globalResources('./return-delegate');
+  config.globalResources('./return-trigger');
 }

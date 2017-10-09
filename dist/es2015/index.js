@@ -1,5 +1,5 @@
 import './return-trigger';
 
 export function configure(config) {
-  config.globalResources('./return-delegate');
+  config.globalResources('./return-trigger');
 }
