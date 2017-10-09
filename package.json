@@ -1,6 +1,6 @@
 {
   "name": "aurelia-return-trigger",
-  "version": "0.2.0",
+  "version": "0.2.2",
   "description": "An Aurelia plugin to simply trigger a \"return\" event on return keypress",
   "keywords": [
     "aurelia"
